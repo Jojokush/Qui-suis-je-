@@ -1,0 +1,27 @@
+footer {
+    color:white;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(2, 17, 46);
+    align-content: space-between;
+    display: block;
+    padding-top: 3.123rem;
+    padding-bottom: 6.25rem;
+    
+    
+}
+#Corps{
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url(/images/chambre.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+#Compétences{
+ 
+
+}
