@@ -82,9 +82,30 @@
         <div>
             <img src="/images/me_contactLogo.svg" alt="me joindre">
             <h2 >Contactez-moi!</h2>
-            <form name="login" action="">
+            <form name="login" action="" method="post">
+                <!--form methode est "get" par defautl-->
+                <!-- form methode = "post" comparé à "get" signifie qu'il censure ou cache les informations du URL/Web-->
+                Username:
                 <input type="text" name="username">
+                <br>
+                Password :
                 <input type="password" name="password">
+                <br>
+                <br>
+                Genre:
+                <select name="Genre">
+                    <!-- "select tag" permet une liste a choix = 'Option'-->
+                    <option value="Homme">Homme</option>
+                    <option value="Femme">Femme</option>
+                    <option value="LGBT">Autres</option>
+                </select>
+                <br>
+                <br>
+                comments:
+                <br>
+                <Textarea name="Comments!" rows="10" cols="30"></Textarea>
+                <br>
+                <br>
                 <input type="submit">
 
             </form>
